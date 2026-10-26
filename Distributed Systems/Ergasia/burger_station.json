@@ -1,0 +1,35 @@
+{
+  "StoreName": "Burger Station",
+  "Latitude": 37.9667,
+  "Longitude": 23.7281,
+  "FoodCategory": "burger",
+  "Stars": 3,
+  "NoOfVotes": 142,
+  "StoreLogo": "/logos/burger_station.png",
+  "Products": [
+    {
+      "ProductName": "Classic Cheeseburger",
+      "ProductType": "burger",
+      "Available Amount": 90,
+      "Price": 6.8
+    },
+    {
+      "ProductName": "Double Bacon Burger",
+      "ProductType": "burger",
+      "Available Amount": 75,
+      "Price": 8.9
+    },
+    {
+      "ProductName": "Onion Rings",
+      "ProductType": "side",
+      "Available Amount": 60,
+      "Price": 3.0
+    },
+    {
+      "ProductName": "Cola 330ml",
+      "ProductType": "drink",
+      "Available Amount": 100,
+      "Price": 1.7
+    }
+  ]
+}

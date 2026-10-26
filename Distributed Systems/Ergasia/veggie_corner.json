@@ -1,0 +1,35 @@
+{
+  "StoreName": "Veggie Corner",
+  "Latitude": 37.962,
+  "Longitude": 23.7435,
+  "FoodCategory": "vegetarian",
+  "Stars": 5,
+  "NoOfVotes": 89,
+  "StoreLogo": "/logos/veggie_corner.png",
+  "Products": [
+    {
+      "ProductName": "Falafel Wrap",
+      "ProductType": "wrap",
+      "Available Amount": 60,
+      "Price": 5.5
+    },
+    {
+      "ProductName": "Vegan Burger",
+      "ProductType": "burger",
+      "Available Amount": 40,
+      "Price": 7.2
+    },
+    {
+      "ProductName": "Sweet Potato Fries",
+      "ProductType": "side",
+      "Available Amount": 70,
+      "Price": 3.9
+    },
+    {
+      "ProductName": "Smoothie",
+      "ProductType": "drink",
+      "Available Amount": 50,
+      "Price": 4.3
+    }
+  ]
+}

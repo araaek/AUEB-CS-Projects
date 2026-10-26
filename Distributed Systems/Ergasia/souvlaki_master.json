@@ -1,0 +1,35 @@
+{
+  "StoreName": "Souvlaki Master",
+  "Latitude": 37.984,
+  "Longitude": 23.7282,
+  "FoodCategory": "souvlaki",
+  "Stars": 5,
+  "NoOfVotes": 324,
+  "StoreLogo": "/logos/souvlaki_master.png",
+  "Products": [
+    {
+      "ProductName": "Pita Gyro Pork",
+      "ProductType": "wrap",
+      "Available Amount": 180,
+      "Price": 3.2
+    },
+    {
+      "ProductName": "Pita Gyro Chicken",
+      "ProductType": "wrap",
+      "Available Amount": 160,
+      "Price": 3.4
+    },
+    {
+      "ProductName": "French Fries",
+      "ProductType": "side",
+      "Available Amount": 140,
+      "Price": 2.2
+    },
+    {
+      "ProductName": "Tzatziki",
+      "ProductType": "side",
+      "Available Amount": 100,
+      "Price": 1.5
+    }
+  ]
+}

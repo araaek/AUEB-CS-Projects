@@ -1,0 +1,35 @@
+{
+  "StoreName": "Asian Express",
+  "Latitude": 37.9773,
+  "Longitude": 23.7146,
+  "FoodCategory": "asian",
+  "Stars": 4,
+  "NoOfVotes": 198,
+  "StoreLogo": "/logos/asian_express.png",
+  "Products": [
+    {
+      "ProductName": "Chicken Teriyaki",
+      "ProductType": "main",
+      "Available Amount": 70,
+      "Price": 7.5
+    },
+    {
+      "ProductName": "Spring Rolls",
+      "ProductType": "starter",
+      "Available Amount": 90,
+      "Price": 3.8
+    },
+    {
+      "ProductName": "Fried Rice",
+      "ProductType": "side",
+      "Available Amount": 80,
+      "Price": 4.5
+    },
+    {
+      "ProductName": "Green Tea",
+      "ProductType": "drink",
+      "Available Amount": 50,
+      "Price": 2.2
+    }
+  ]
+}

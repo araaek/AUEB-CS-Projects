@@ -1,0 +1,35 @@
+{
+    "StoreName": "Pizza Fan",
+    "Latitude": 37.9667,
+    "Longitude": 23.7281,
+    "FoodCategory": "pizzeria",
+    "Stars": 4,
+    "NoOfVotes": 215,
+    "StoreLogo": "/logos/pizzafan.png",
+    "Products": [
+      {
+        "ProductName": "Margarita Special",
+        "ProductType": "pizza",
+        "Available Amount": 150,
+        "Price": 8.5
+      },
+      {
+        "ProductName": "Pepperoni Classic",
+        "ProductType": "pizza",
+        "Available Amount": 120,
+        "Price": 9.2
+      },
+      {
+        "ProductName": "Caesar Salad",
+        "ProductType": "salad",
+        "Available Amount": 80,
+        "Price": 6.0
+      },
+      {
+        "ProductName": "Garlic Bread",
+        "ProductType": "side",
+        "Available Amount": 200,
+        "Price": 2.5
+      }
+    ]
+  }

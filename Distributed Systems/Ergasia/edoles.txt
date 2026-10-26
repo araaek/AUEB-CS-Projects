@@ -1,0 +1,19 @@
+javac -encoding UTF-8 -cp "lib\org.json.jar" -d out shared\dto\*.java
+javac -encoding UTF-8 -cp "out;lib\org.json.jar" -d out dummy_client\*.java
+javac -encoding UTF-8 -cp "lib\org.json.jar" -d out shared\*.java shared\dto\*.java master\*.java
+java -Dfile.encoding=UTF-8 -cp "out;lib/org.json.jar" master.Master 5000 workers.conf   #τρεχει ο μαστερ
+javac -encoding UTF-8 -cp "lib\org.json.jar" -d out shared\*.java shared\dto\*.java worker\*.java #μεταγλωτιση workers
+java -cp out worker.Worker 6000   #εκκινηση worker
+javac -encoding UTF-8 -cp "lib\org.json.jar" -d out shared\dto\*.java manager_console\ManagerApp.java  #compile manager
+java -Dfile.encoding=UTF-8 -cp "out;lib/org.json.jar" manager_console.ManagerApp localhost 5000  #run manager
+java -Dfile.encoding=UTF-8 -cp "out;lib/org.json.jar" dummy_client.DummyClientApp localhost 5000 
+java -Dfile.encoding=UTF-8 -cp "out;lib/org.json.jar" dummy_client.DummyClientApp localhost 5000 #run dammyclient
+javac -encoding UTF-8 -cp "lib/org.json.jar" -d out worker\StoreRepository.java shared\dto\*.java  #θελει compile
+javac -encoding UTF-8 -cp "out;lib/org.json.jar" -d out path\to\MyClass.java     #θελει compile
+master PC1 :java -cp "out;lib/org.json.jar" master.Master 5000 workers.conf
+
+PC2:java -cp out worker.Worker 6000
+PC3:java -cp out worker.Worker 6000
+οπουδηποτε :java -cp "out;lib/org.json.jar" manager_console.ManagerApp 192.168.1.10 5000
+οποθδηποτε: java -cp "out;lib/org.json.jar" dummy_client.DummyClientApp 192.168.1.10 5000      IP MASTER
+ipconfig
